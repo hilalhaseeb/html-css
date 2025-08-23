@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    <link rel="stylesheet" href="/css/checkout.css">
+</head>
+
+<body>
+    <div class="headerdiv">
+        <header>
+            <nav>
+                <a href="/html/home.html">HOME</a>
+                <a href="/html/products.html">PRODUCTS</a>
+                <a href="/html/checkout.html">CHECKOUT</a>
+                <a href="#aboutus">ABOUT US</a>
+            </nav>
+        </header>
+    </div>
+    <div class="maindiv">
+
+        <section id="shipping">
+            <div class="shopname">
+            <h1>Smart Point</h1>
+            <p>Everything under one click!</p></div>
+            <nav>
+                <a href="#shipping">SHIPPING</a>
+                <a href="#payment">PAYMENT</a>
+            </nav>
+            <form action="">
+                <div class="shipping">
+                    <input type="text" placeholder="FIRST NAME" name="FIRST NAME" id="FIRST NAME">
+                    <input type="text" placeholder="LAST NAME" name="LAST NAME" id="LAST NAME">
+                    <input type="email" placeholder="EMAIL" name="EMAIL" id="EMAIL">
+                    <input type="text" placeholder="STREET ADDRESS" name="ADDRESS" id="ADDRESS">
+                    <select name="country" id="country">
+                        <option value="india">INDIA</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <input type="tel" placeholder="PHONE NUMBER" name="PHONE" id="PHONE">
+                    <input type="tel" placeholder="PIN" name="PIN" id="PIN">
+                </div>
+        </section>
+        <div class="payment">
+            <section id="payment">
+                <h3 class="paymentmethod">PAYMENT METHOD</h3>
+                <div class="creditcard">
+                    <input type="radio" id="payment" name="payment">
+                    <label for="credit card">
+                        <h4>Credit card</h4>
+                        <p>Secure nd encrypted</p>
+                        <div class="crimg">
+                            <img src="/credit cards/visa.png" alt="visa">
+                            <img src="/credit cards/mastercard.png" alt="mastercard">
+                            <img src="/credit cards/american.jpg" alt="american express">
+                        </div>
+                </div>
+                </label>
+                <div class="UPI">
+                    <input type="radio" name="payment" id="payment">
+                    <label for="UPI">
+                        <h4>UPI Payment</h4>
+                        <p>fast and secure</p>
+                        <div class="upiimg">
+                        <img src="/credit cards/gpay.png" alt="gpay">
+                        <img src="/credit cards/phone pay.jpg" alt="phone pay">
+                        <img src="/credit cards/paytm.png" alt="paytm">
+                
+                        </div>  
+                    </div>
+                </label>
+                <div class="cashondelivery">
+                    <input type="radio" id="payment" name="payment">
+                    <h3>Cash on delivery</h3>
+                </div>
+            </section>
+        </div>
+        <div class="submit-button">
+            <button type="submit">ORDER</button>
+        </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

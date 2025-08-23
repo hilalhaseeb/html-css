@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerdiv {
+    background-color: rgb(211, 213, 247);
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+
+nav a {
+    padding: 0.5rem 1rem;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    background-color: rgb(187, 178, 238);
+    border-radius: 5px;
+    color: rgb(69, 71, 202);
+}
+
+.maindiv {
+    max-width: 1000px;
+    background-color: #f9f9f9;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.342);
+}
+
+.product {
+    display: grid;
+
+}
+
+img {
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+
+}
+
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+    padding: 10px 20px;
+    font-size: large;
+    position: relative;
+    left: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #005f99;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product {
+    width: 30%; /* makes 2 products per row */
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    max-width: 220px;
+}
+#aboutus{
+    border-top: 2px solid #ccc;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+section h2{
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}

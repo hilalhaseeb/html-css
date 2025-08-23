@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerdiv {
+    background-color: rgb(211, 213, 247);
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+}
+
+nav a {
+    padding: 0.5rem 1rem;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    background-color: rgb(187, 178, 238);
+    border-radius: 5px;
+    color: rgb(69, 71, 202);
+}
+.maindiv {
+    max-width: 1000px;
+    background-color: #f9f9f9;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.342);
+}
+.shipping{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    max-width: 600px;
+}
+input:not([type="radio"]){
+    display: inline;
+    width: 250px;
+    height: 35px;
+    margin: 15px;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+#PHONE{
+    width: 187px;
+}
+img{
+    width: 40px;
+    margin: 7px;
+
+}
+.creditcard{    
+    width: 970px;
+    height: 60px;
+    border: #2c3e50 solid 1px;
+    margin-bottom: 10px;
+    
+}
+.crimg{
+    position:absolute;
+    right: 300px;
+    bottom: 125px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    flex-wrap: wrap;
+
+}
+.UPI{
+    width: 970px;
+    height: 60px;
+    border: #2c3e50 solid 1px;
+    margin-bottom: 10px;
+}
+.upiimg{
+   position: absolute;
+    right: 300px;
+    bottom: 50px; 
+}
+.cashondelivery{
+    width: 970px;
+    height: 60px;
+    border: #2c3e50 solid 1px;
+}
+button{
+    background-color: rgb(52, 52, 190);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px;
+    justify-content: center;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 350px;
+}
+button:hover{
+    background-color: rgb(33, 33, 180);
+}
+.paymentmethod{
+    margin-bottom:20px;
+    font-style: italic;
+    font-weight: 900
+}
+.shopname{
+    color: rgb(245, 102, 102);
+    font-weight: 900;
+}

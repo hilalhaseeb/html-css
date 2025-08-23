@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            /* max-height:auto; */
+            /* max-width: 1000px; */
+            border:5px solid black;
+            /* overflow: scroll; */
+            border-radius: 10px;
+            display: flex;
+            flex-direction:row;
+            
+            /* flex-wrap: wrap; */
+            /* justify-content: space-evenly; */
+    }
+    .items{
+        border:5px solid black;
+        margin: 20px;
+        padding:10px;
+        width: 200px;
+        height:200px;
+        background-color: brown;
+        animation-name: box1;
+        animation-duration: 10s;
+        
+       
+    }
+    #box1{
+        background-color: brown;
+        
+        
+        
+    }
+    #box2{
+        background-color: blueviolet;
+    }
+    #box3{
+        background-color: blue;
+        
+    }
+    #box4{
+        background-color: burlywood;
+    }
+    @keyframes box1 {
+        from {background-color: brown;}
+        to{background-color: blue;}
+    }
+
+    
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="items" id="box1"> Box 1</div>
+        <div class="items" id="box2"> Box 2</div>
+        <!-- <div class="items" id="box3"> Box 3</div>
+        <div class="items" id="box4"> Box 4</div> -->
+    </div>
+</body>
+</html>
